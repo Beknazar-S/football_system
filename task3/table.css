@@ -1,0 +1,76 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f8f8f8;
+  padding: 20px;
+}
+
+
+#grades-title {
+  text-align: center;
+  color: #2a3f73;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 40px;
+  background: white;
+}
+
+th {
+  background: #2a3f73;
+  color: white;
+  padding: 10px;
+}
+
+td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: center;
+}
+
+tbody tr:nth-child(even) {
+  background: #f0f4ff;
+}
+
+.highlight-row {
+  background: #ffe6a7;
+}
+
+#feedback-form {
+  width: 400px;
+  margin: 0 auto;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+#feedback-form label {
+  font-weight: bold;
+  display: block;
+  margin-top: 12px;
+}
+
+#feedback-form input,
+#feedback-form select,
+#feedback-form textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 4px;
+  box-sizing: border-box;
+}
+
+#feedback-form button {
+  margin-top: 15px;
+  padding: 10px 16px;
+  background: #2a3f73;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#feedback-form button:hover {
+  background: #435f9c;
+}
